@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10950F16-16EE-A32D-89B6-208F500D0222" name="T_CAMERA">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>8B68F1B2-BF1B-42EC-6A4F-83B107D9EE8D</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="end_ip_camera" id="2C644FA2-4F8C-E3FE-8537-19DE3AB8197F">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F38C57FC-8783-B381-4B13-79E4138DFE95</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CASA_id_casa" id="475677A8-46A2-7223-4C28-EC3C3C1011FB">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>189C621A-D0E1-00D3-C8AA-0D25561595C0</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F9989DD-D28D-64F8-4817-0D4AD4787C17" referredColumn="AD2EA384-F7DF-38CA-9679-48CFA5DCC345"/>
+</associations>
+</Column>
+<Column name="nm_camera" id="73984B15-2CE0-CDAB-EED3-906F07966F1E">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>055A860E-8A1A-D339-CB87-A7D238FA6B2F</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_camera" id="B47D3B90-653E-3FAF-D3CD-1CB9A2694470">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>313AB50F-0BEF-04CF-503D-BC0A9AA17558</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC6A74D0-8348-A128-772F-DE0A1EBAE499" name="T_CAMERA_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>CB0170C3-3AAA-F75F-A081-A3D897F48A1D</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C644FA2-4F8C-E3FE-8537-19DE3AB8197F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC329EDC-3BF4-F8D0-14C3-C96C829B2FC0" name="T_CAMERA_T_CASA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>631E7EEE-9B95-2551-A557-73E3CE85E796</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="475677A8-46A2-7223-4C28-EC3C3C1011FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

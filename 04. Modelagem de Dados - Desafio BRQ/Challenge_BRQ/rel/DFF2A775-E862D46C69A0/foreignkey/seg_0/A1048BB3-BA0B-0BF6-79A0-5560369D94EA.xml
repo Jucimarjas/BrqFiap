@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1048BB3-BA0B-0BF6-79A0-5560369D94EA" containerWithKeyObject="9052A4FC-5DD2-7770-EE03-8C7983F7145C" localFKIndex="BCBDF877-8692-8883-488D-F89556292767" name="T_CASA_T_LAMPADA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<referredTableLongName>T_LAMPADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>001E6C1A-6BA4-A8C2-CB3E-017EBA4E7756</referredTableID>
+<keyObject>467715B7-73EB-855D-7074-452A7CF9C8B1</keyObject>
+<referredKeyID>467715B7-73EB-855D-7074-452A7CF9C8B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>end_ip_lampada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

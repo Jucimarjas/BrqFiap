@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9431223-DCB1-7455-CFF0-AD720615552E" name="T_LAMPADA">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>5B22DE81-82B1-7158-3A09-9B5F141CEAF4</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="end_ip_lampada" id="60D8C3A6-403B-17E3-7D27-2EB690DE44EF">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>55ADFEF9-A443-0504-FBF7-8005E32FBCC3</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_casa" id="EB5BB2CC-94FA-CAAA-23CD-862DAE972E9F">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<generatorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>9F0E7061-00EE-64F5-AFDA-F66A5E64D8AD</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<referedAttribute>C0F83889-0EB9-2141-D152-3030352D4081</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_lampada" id="B7C65400-20F0-4075-6501-F2F2153F4DE3">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>6A55E16A-B8BE-76AA-241D-A9AA61ED8BC3</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C882E3E5-12AB-3278-2D40-2E6F82E85CE3" name="T_LAMPADA PK">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>84B1AFA1-63C8-A8E7-23B8-A0754F42EA2E</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60D8C3A6-403B-17E3-7D27-2EB690DE44EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

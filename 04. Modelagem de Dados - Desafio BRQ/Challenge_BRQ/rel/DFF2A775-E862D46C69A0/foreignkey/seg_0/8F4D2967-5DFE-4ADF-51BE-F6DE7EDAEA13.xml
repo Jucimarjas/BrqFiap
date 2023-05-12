@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F4D2967-5DFE-4ADF-51BE-F6DE7EDAEA13" containerWithKeyObject="9052A4FC-5DD2-7770-EE03-8C7983F7145C" localFKIndex="77F33B28-4028-1E3E-4838-5BFED73F8247" name="T_CASA_T_MULTIMIDIA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<referredTableLongName>T_MULTIMIDIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A89CCA6-CDA7-3900-ECF1-D52356C5AB5E</referredTableID>
+<keyObject>5222C313-5AB2-D047-1CEB-F7F61841AFC5</keyObject>
+<referredKeyID>5222C313-5AB2-D047-1CEB-F7F61841AFC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>end_ip_wifi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

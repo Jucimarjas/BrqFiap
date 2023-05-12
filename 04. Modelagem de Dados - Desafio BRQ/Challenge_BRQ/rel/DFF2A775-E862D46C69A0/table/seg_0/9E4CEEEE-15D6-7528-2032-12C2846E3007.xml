@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E4CEEEE-15D6-7528-2032-12C2846E3007" name="T_PORTAO">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>BF66D409-DF2C-DC63-CB40-4895263FA3F3</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="end_ip_portao" id="79089B00-106A-B16B-FE51-44C22413134A">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>70333478-E640-B324-56C9-5599C30AB9ED</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CASA_id_casa" id="A97F03AA-FB17-AF60-5029-113D2955D78B">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>13ADCDC9-21F6-A9D0-D054-A151E69C9D8A</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BCC8B37-DF3F-B4C4-2C08-FDF22E1A0FE6" referredColumn="AD2EA384-F7DF-38CA-9679-48CFA5DCC345"/>
+</associations>
+</Column>
+<Column name="st_portao" id="4A67B91E-32E8-CE49-2EB4-A0AED2AFE872">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>682C62CE-4DC6-9137-788E-E4EAEC13C6B6</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA39C33A-99F7-7423-B2FB-D7055B1A55F7" name="T_PORTAO_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>DCA3BCB2-0D4D-8D94-8C6A-F324ABC84579</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79089B00-106A-B16B-FE51-44C22413134A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC06AF8-FC7C-5698-5259-6002A0D4EB19" name="T_PORTAO__IDX">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>184B42B8-AF6F-630F-8CAB-1B8821A1CFD2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A97F03AA-FB17-AF60-5029-113D2955D78B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B58A0D7C-CA3F-90A4-FBFA-3B4E2129DAF7" name="T_PORTAO_T_CASA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>184B42B8-AF6F-630F-8CAB-1B8821A1CFD2</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A97F03AA-FB17-AF60-5029-113D2955D78B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

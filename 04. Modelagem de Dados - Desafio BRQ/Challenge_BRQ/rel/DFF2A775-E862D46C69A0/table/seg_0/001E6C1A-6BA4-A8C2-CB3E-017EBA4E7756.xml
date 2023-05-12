@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="001E6C1A-6BA4-A8C2-CB3E-017EBA4E7756" name="T_LAMPADA">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>B9431223-DCB1-7455-CFF0-AD720615552E</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="end_ip_lampada" id="711468F2-516F-E81D-2F05-6AC7A66045FA">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>60D8C3A6-403B-17E3-7D27-2EB690DE44EF</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CASA_id_casa" id="1C6391D5-5640-835C-1840-A7F3E03A7977">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>EB5BB2CC-94FA-CAAA-23CD-862DAE972E9F</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55B868A8-169B-EEFC-0D6A-BB997947A752" referredColumn="AD2EA384-F7DF-38CA-9679-48CFA5DCC345"/>
+</associations>
+</Column>
+<Column name="st_lampada" id="1E27C2DC-CC48-429F-69CB-2B841E7E2753">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>B7C65400-20F0-4075-6501-F2F2153F4DE3</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="467715B7-73EB-855D-7074-452A7CF9C8B1" name="T_LAMPADA_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>C882E3E5-12AB-3278-2D40-2E6F82E85CE3</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="711468F2-516F-E81D-2F05-6AC7A66045FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F068D1EA-EE8F-616D-BDB5-6AC368135502" name="T_LAMPADA__IDX">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1C6391D5-5640-835C-1840-A7F3E03A7977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5328323E-C091-9B12-5D10-D48407AB3E57" name="T_LAMPADA_T_CASA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6391D5-5640-835C-1840-A7F3E03A7977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

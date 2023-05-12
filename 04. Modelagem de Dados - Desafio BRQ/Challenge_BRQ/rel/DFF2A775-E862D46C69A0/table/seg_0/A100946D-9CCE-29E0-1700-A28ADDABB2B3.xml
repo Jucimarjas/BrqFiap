@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A100946D-9CCE-29E0-1700-A28ADDABB2B3" name="T_CASA_ASSISTENTE">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>3A959196-9447-8B6A-95A6-2AD8737D347B</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="end_ip_assistente" id="415CC534-BF55-43A9-91A8-16B09D771B4B">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>CEA949C1-221F-6F5C-622E-6E4863607D26</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_assistente" id="61FA21FE-41E3-7F66-464B-B1D8A2523D20">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>DB65E78B-47DB-B1A9-C293-317D41E6294B</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_assistente" id="6F3D38CB-DCA1-0804-3E5B-3817388981DF">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>7495F04D-CAB8-0B20-B893-CB9BE2697EF1</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB0ED408-F55F-44A0-835E-59E71E0D2E02" name="T_CASA_ASSISTENTE_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>0C0E5D9C-92E0-29DA-DA43-717A822B01BC</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="415CC534-BF55-43A9-91A8-16B09D771B4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

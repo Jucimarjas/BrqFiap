@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5CBF528-CD84-0186-6A04-249F9E07F414" name="T_LOCALIZACAO">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>2AC024F1-683F-CC0B-6846-A373E8B7B71B</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_localizacao" id="453C9148-6193-423B-BDC0-BA01ED703786">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>E43F7E20-F7ED-EEB3-D142-E4BF4CD68561</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_modo_estacionamento" id="A837A291-20D4-AA81-FBC8-F227443DB053">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<generatorID>39C75AB8-1DB3-9FF8-ABF2-2421C422D806</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>FD760C94-BEA9-7411-1D54-C504D70A9042</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<referedAttribute>0E5E476E-0D69-04C5-0D77-76E6BEF13C11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_localizacao" id="82CB0715-746E-D121-EA88-11A20ADC1FAD">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>CC9E6406-9321-85F2-1AED-5A3F03F01FFE</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1C706BA-29DB-4D03-35EC-BEAC68128AC1" name="T_LOCALIZACAO PK">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>957ADCF8-122E-B54D-C3E3-280ECED29EAF</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>453C9148-6193-423B-BDC0-BA01ED703786</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

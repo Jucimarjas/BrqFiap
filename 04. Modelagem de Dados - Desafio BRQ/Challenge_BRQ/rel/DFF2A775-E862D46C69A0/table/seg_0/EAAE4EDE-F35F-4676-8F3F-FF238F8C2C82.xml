@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAAE4EDE-F35F-4676-8F3F-FF238F8C2C82" name="T_TIPO_FONE">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>A2EF5144-F1DB-E42F-C173-0A37B6D9A35C</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_tipo_fone" id="8C5B9967-BB56-3487-0338-F12D674EBC99">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F2FD2E57-77AF-5C01-E9C4-B001BC973EAC</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_EMERGENCIA_id_emergencia" id="57A5ED20-D48B-A0E9-2BFF-9C004C83C89E">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>5D1A7404-C558-E786-684C-83338AAF12AD</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09CB93E0-C6A9-D7FF-C0AF-E271D1F25049" referredColumn="93CAECA3-7216-B014-CD35-1FFADDF143CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A968573-D306-BC2E-6DE1-0146F5735DC3" name="T_TIPO_FONE_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>A2F79110-D9DE-82B5-F6DC-7D447E4B3078</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A5ED20-D48B-A0E9-2BFF-9C004C83C89E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3505E9B2-5802-C4D3-407F-DEA4F07F4913" name="T_TIPO_FONE_T_EMERGENCIA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>6688EAD2-7A47-577D-0214-FD3A54B79D50</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A5ED20-D48B-A0E9-2BFF-9C004C83C89E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

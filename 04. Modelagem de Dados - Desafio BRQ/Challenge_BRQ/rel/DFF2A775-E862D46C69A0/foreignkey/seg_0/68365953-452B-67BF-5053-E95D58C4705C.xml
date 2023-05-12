@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68365953-452B-67BF-5053-E95D58C4705C" containerWithKeyObject="9052A4FC-5DD2-7770-EE03-8C7983F7145C" localFKIndex="50427C27-8362-7116-901C-2E814E8653AB" name="T_CASA_T_PORTAO_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>184B42B8-AF6F-630F-8CAB-1B8821A1CFD2</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<referredTableLongName>T_PORTAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E4CEEEE-15D6-7528-2032-12C2846E3007</referredTableID>
+<keyObject>CA39C33A-99F7-7423-B2FB-D7055B1A55F7</keyObject>
+<referredKeyID>CA39C33A-99F7-7423-B2FB-D7055B1A55F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>end_ip_portao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

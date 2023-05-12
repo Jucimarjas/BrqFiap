@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv5" directorySegmentName="seg_0" id="EAB49905-24C5-BFBF-390C-B8146373F617">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:06 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>76D85911-E666-EE21-B44A-AE4F05D11315</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<sourcePk>0C0E5D9C-92E0-29DA-DA43-717A822B01BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A959196-9447-8B6A-95A6-2AD8737D347B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>50BD0F92-1DED-5222-AE09-43EB3FA7B02B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

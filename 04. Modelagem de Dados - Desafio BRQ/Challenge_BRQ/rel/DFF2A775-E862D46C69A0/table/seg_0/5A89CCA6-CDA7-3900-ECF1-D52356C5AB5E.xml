@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A89CCA6-CDA7-3900-ECF1-D52356C5AB5E" name="T_MULTIMIDIA">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>214C6182-2EE0-C8E0-9192-00DA29820BE1</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="end_ip_wifi" id="665ADF6C-3569-BF60-2C77-1A9EE24A3CF6">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>1D3E72A3-75BF-310D-1E3D-A8D99DC793C9</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CASA_id_casa" id="AF64E190-D499-F0A5-898E-F5E27DE2FC64">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>B7C83B3B-5D61-C6B1-5D4E-D2F3AF1D938C</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="272B5D86-B3FE-61CD-1212-163B81DDF369" referredColumn="AD2EA384-F7DF-38CA-9679-48CFA5DCC345"/>
+</associations>
+</Column>
+<Column name="pw_senha_wifi" id="9B5CE4A5-47D9-0D18-2422-67D9FD9E7901">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>72F418A0-CA8A-D68E-0318-B3FBF054FCC4</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pin_bluetooth" id="F15E4F42-C249-0F09-58C3-4022E49184C4">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>7F9A4E9D-EB86-D159-0422-0DFF84CD39B0</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5222C313-5AB2-D047-1CEB-F7F61841AFC5" name="T_MULTIMIDIA_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>74CE7DDA-7A64-DB0D-EC5E-B70C624375CD</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="665ADF6C-3569-BF60-2C77-1A9EE24A3CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F61EA7B-3C2C-8337-FCF6-9B8F7BB3FC85" name="T_MULTIMIDIA__IDX">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AF64E190-D499-F0A5-898E-F5E27DE2FC64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="503A5B0E-9BDF-49CE-D1AD-BE797B4B5ECE" name="T_MULTIMIDIA_T_CASA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF64E190-D499-F0A5-898E-F5E27DE2FC64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

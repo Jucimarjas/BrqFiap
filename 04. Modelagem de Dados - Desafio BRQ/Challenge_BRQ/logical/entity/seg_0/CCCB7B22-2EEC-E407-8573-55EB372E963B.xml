@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCCB7B22-2EEC-E407-8573-55EB372E963B" name="T_EMERGENCIA">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>7643F4B4-C064-4A9D-5A13-778580C98175</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_emergencia" id="BB200ACD-23A1-6C81-7FB0-7BD236BCE0C9">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>C7567BA9-F2E0-5992-67D9-5134BD40D7AA</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_ip_wifi" id="684BF8F5-0555-64A8-F391-DAEFB0F34984">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<generatorID>BBA80952-490C-637C-528D-B4B95BA15103</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>7903D460-8BD5-0F84-7401-B23DE45C77F6</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<referedAttribute>1D3E72A3-75BF-310D-1E3D-A8D99DC793C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_tel_mecanico" id="DFF6F55E-B572-B46E-86C7-3B935521DFE3">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>573788F4-3DDF-CE53-4FE7-AFAFD6767C0D</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,,9</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ddd_tel_mecanico" id="80A4FD98-66B3-6144-2B3C-635533EACA10">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>105F191A-D6C7-6B4C-ACD4-6C19A503A108</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ddi_tel_mecanico" id="D735A7F7-B649-CA53-0745-64C50C1AFD1B">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>7ABCDDFE-C6D9-5B4F-1D90-26E98DE3EB6E</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_policia" id="4B646974-F747-3A69-6184-2B783572BCE8">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>6448F80B-CC06-AA82-CBCD-6FE98BE847A8</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_bombeiro" id="35CF82FC-E15B-9791-7271-55C5CE21CB17">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>2C85C943-AF77-5815-61BE-D410DDB394E4</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_samu" id="6C7F2EC6-96B3-D6B8-CD75-C5F8A30CFC06">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>A60BF6F8-DBC9-9FA7-4EF7-F6FBC62D244C</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA00CC85-6CF8-2598-7397-D711502F1B9C" name="T_EMERGENCIA PK">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>712681D4-B914-3881-6357-B9473E5F9DF4</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB200ACD-23A1-6C81-7FB0-7BD236BCE0C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="challenge_bd" id="52630F4A-BE25-E6B0-3DCE-6C164129DB81" version="3.5">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:10:40 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>52630F4A-BE25-E6B0-3DCE-6C164129DB81</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="98A00FB5-38F9-FA08-C615-F29827E3EFD1">
+<designStoragePath>C:\Users\PC Gamer\Desktop\ChallengeFiap\challange</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="71805CF4-8862-493C-ACD3-800D88F0B07B">
+<designStoragePath>C:\Users\PC Gamer\Desktop\challenge_bd_brq\challenge_bd</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60F555AC-1204-57D3-B84C-00DE1FFB52E0" name="T_RELATORIO">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>803DF738-F40E-00BF-8E06-13CE305357FB</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_relatorio" id="D9A1D08E-DBAB-3F2D-8359-402A35203D66">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>FA11BC10-73BF-CEA7-9047-49311E545A5E</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_casa" id="C7CF9A78-ACDC-37A9-473D-AE5AD3F9D1AE">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<generatorID>14FE25BA-971E-3464-B50A-316726C014DA</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>EBACF71A-285F-4CCC-D6FB-CCF1E626A49C</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<referedAttribute>C0F83889-0EB9-2141-D152-3030352D4081</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_relatorio" id="A11C3D47-E39E-F70A-427B-FC71B5C3D307">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>C079B2C5-F235-02CC-28CD-F0C29A986845</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_relatorio" id="B4241AF0-731C-C2AB-9FC3-658504F5D5A8">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>3CCA39F2-C580-73F3-3341-C076D6A4D1E4</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C92C8213-DCAF-9E5C-BE85-7FCAB6A8175C" name="T_RELATORIO PK">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:05 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>7B1EE2FC-273F-F0B2-45DC-FF9306A3D292</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9A1D08E-DBAB-3F2D-8359-402A35203D66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

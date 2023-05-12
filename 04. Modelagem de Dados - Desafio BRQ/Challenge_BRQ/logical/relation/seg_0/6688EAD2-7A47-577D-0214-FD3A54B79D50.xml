@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="deve ser" directorySegmentName="seg_0" id="6688EAD2-7A47-577D-0214-FD3A54B79D50">
+<createdBy>Dnx</createdBy>
+<createdTime>2022-10-05 13:12:06 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<importedID>74505C60-210C-5F1D-AB07-DE2C68E4096F</importedID>
+<engineerTo>
+<item key="DFF2A775-1FD6-D7FA-DE38-E862D46C69A0" value="true"/>
+<item key="0F449CEB-2274-5C1B-B080-1FA872AFE873" value="true"/>
+<item key="ACF90852-88E7-2F36-4283-FF04B473F388" value="true"/>
+</engineerTo>
+<sourcePk>CA00CC85-6CF8-2598-7397-D711502F1B9C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CCCB7B22-2EEC-E407-8573-55EB372E963B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A2EF5144-F1DB-E42F-C173-0A37B6D9A35C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

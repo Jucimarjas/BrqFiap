@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9052A4FC-5DD2-7770-EE03-8C7983F7145C" name="T_CASA">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>50BD0F92-1DED-5222-AE09-43EB3FA7B02B</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_casa" id="AD2EA384-F7DF-38CA-9679-48CFA5DCC345">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>C0F83889-0EB9-2141-D152-3030352D4081</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PORTAO_end_ip_portao" id="AD8D77E0-5A1B-3954-0983-51D33659EC25">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>98F63666-044B-57C8-2E30-98FC213478F8</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68365953-452B-67BF-5053-E95D58C4705C" referredColumn="79089B00-106A-B16B-FE51-44C22413134A"/>
+</associations>
+</Column>
+<Column name="T_CASA_ASSISTENTE_end_ip_assistente" id="02A7E6A6-E2AC-DBC0-3D33-F8E509CC2EEF">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>CFE34DC8-63C4-9518-7053-1C4772FA2384</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B576F215-D221-4445-0515-10F05DD6E2B4" referredColumn="415CC534-BF55-43A9-91A8-16B09D771B4B"/>
+</associations>
+</Column>
+<Column name="T_MULTIMIDIA_end_ip_wifi" id="7BE4CF42-82CA-8E65-1C00-2DB2BAAD717C">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>5401FF8B-42C8-DDDF-1AC4-95695B134704</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F4D2967-5DFE-4ADF-51BE-F6DE7EDAEA13" referredColumn="665ADF6C-3569-BF60-2C77-1A9EE24A3CF6"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_cd_endereco" id="AB9C473A-C8CF-7B52-BA18-543DC5F59CCB">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>E8406416-7EE7-3F0D-B7A6-785B86FCF655</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8776147D-7A36-7AA8-238C-197D31B4CA1E" referredColumn="B2D0B14E-4469-18D9-BBD4-34EA3FFB36C3"/>
+</associations>
+</Column>
+<Column name="T_LAMPADA_end_ip_lampada" id="2F496BF2-48F6-EAE4-5F9B-9BF7E621F21D">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>50B3CB62-804A-ABA0-8D00-BC4C53A67982</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1048BB3-BA0B-0BF6-79A0-5560369D94EA" referredColumn="711468F2-516F-E81D-2F05-6AC7A66045FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="827F7D66-E547-F3E7-2F96-541D39968AD7" name="T_CASA_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F5A46E55-A4CF-DFCD-EE16-94BB3FC645FA</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD2EA384-F7DF-38CA-9679-48CFA5DCC345"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E959A602-53D3-E13A-EEDC-9002332257EC" name="T_CASA__IDX">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7BE4CF42-82CA-8E65-1C00-2DB2BAAD717C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F2AE259-1E78-DE84-0FB3-29EDE9EA6324" name="T_CASA__IDXv1">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3F548BA3-2789-95C3-ACF2-8E15C11B30D9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AB9C473A-C8CF-7B52-BA18-543DC5F59CCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9004C46A-701A-E9AA-B0A3-DB5D949DFA85" name="T_CASA__IDXv2">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>184B42B8-AF6F-630F-8CAB-1B8821A1CFD2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AD8D77E0-5A1B-3954-0983-51D33659EC25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFF747D7-CE2E-8209-14D3-C7CACA006BBC" name="T_CASA__IDXv3">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2F496BF2-48F6-EAE4-5F9B-9BF7E621F21D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F33B28-4028-1E3E-4838-5BFED73F8247" name="T_CASA_T_MULTIMIDIA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BE4CF42-82CA-8E65-1C00-2DB2BAAD717C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9270399D-E534-C4BF-B738-36DC19ACFCB8" name="T_CASA_T_ENDERECO_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>3F548BA3-2789-95C3-ACF2-8E15C11B30D9</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9C473A-C8CF-7B52-BA18-543DC5F59CCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50427C27-8362-7116-901C-2E814E8653AB" name="T_CASA_T_PORTAO_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>184B42B8-AF6F-630F-8CAB-1B8821A1CFD2</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD8D77E0-5A1B-3954-0983-51D33659EC25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCBDF877-8692-8883-488D-F89556292767" name="T_CASA_T_LAMPADA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F4FDC223-E1A1-43BF-24E5-C3F35A7D6290</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F496BF2-48F6-EAE4-5F9B-9BF7E621F21D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F88E5ABB-4492-35D2-2067-58B9E567CD56" name="T_CASA_T_CASA_ASSISTENTE_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>EAB49905-24C5-BFBF-390C-B8146373F617</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02A7E6A6-E2AC-DBC0-3D33-F8E509CC2EEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

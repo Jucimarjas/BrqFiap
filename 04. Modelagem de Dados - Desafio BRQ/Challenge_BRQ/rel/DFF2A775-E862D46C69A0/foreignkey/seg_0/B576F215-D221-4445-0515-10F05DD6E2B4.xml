@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B576F215-D221-4445-0515-10F05DD6E2B4" containerWithKeyObject="9052A4FC-5DD2-7770-EE03-8C7983F7145C" localFKIndex="F88E5ABB-4492-35D2-2067-58B9E567CD56" name="T_CASA_T_CASA_ASSISTENTE_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>EAB49905-24C5-BFBF-390C-B8146373F617</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<referredTableLongName>T_CASA_ASSISTENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A100946D-9CCE-29E0-1700-A28ADDABB2B3</referredTableID>
+<keyObject>AB0ED408-F55F-44A0-835E-59E71E0D2E02</keyObject>
+<referredKeyID>AB0ED408-F55F-44A0-835E-59E71E0D2E02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>end_ip_assistente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

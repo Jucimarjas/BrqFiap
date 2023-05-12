@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="272B5D86-B3FE-61CD-1212-163B81DDF369" containerWithKeyObject="5A89CCA6-CDA7-3900-ECF1-D52356C5AB5E" localFKIndex="503A5B0E-9BDF-49CE-D1AD-BE797B4B5ECE" name="T_MULTIMIDIA_T_CASA_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>34DA1C0E-6C73-56C4-866D-2913F39C2718</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<referredTableLongName>T_CASA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9052A4FC-5DD2-7770-EE03-8C7983F7145C</referredTableID>
+<keyObject>827F7D66-E547-F3E7-2F96-541D39968AD7</keyObject>
+<referredKeyID>827F7D66-E547-F3E7-2F96-541D39968AD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_casa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

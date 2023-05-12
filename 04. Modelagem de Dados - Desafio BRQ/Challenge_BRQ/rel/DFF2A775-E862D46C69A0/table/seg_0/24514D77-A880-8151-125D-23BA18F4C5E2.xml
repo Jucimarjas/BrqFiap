@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24514D77-A880-8151-125D-23BA18F4C5E2" name="T_LOCALIZACAO">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>F5CBF528-CD84-0186-6A04-249F9E07F414</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_localizacao" id="8E378BC7-E7C4-E166-3301-592B693DD201">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>453C9148-6193-423B-BDC0-BA01ED703786</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MODO_ESTACIONAMENTO_id_modo_estacionamento" id="F92579E8-E5D0-2CBA-4451-7B8E28F70BA6">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>A837A291-20D4-AA81-FBC8-F227443DB053</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F9ECCF-A946-D2C2-3E3F-08BAE8919819" referredColumn="5D644DD4-3054-5D89-7702-8C6274055836"/>
+</associations>
+</Column>
+<Column name="ds_localizacao" id="EB05B764-E8C2-D0C5-18AB-6C5A87894971">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>82CB0715-746E-D121-EA88-11A20ADC1FAD</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="876DD8CE-B3F4-E08B-84C2-5A86B32C882B" name="T_LOCALIZACAO_PK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>C1C706BA-29DB-4D03-35EC-BEAC68128AC1</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E378BC7-E7C4-E166-3301-592B693DD201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="379D84FB-16DD-8339-8E72-BD930266CF0D" name="T_LOCALIZACAO__IDX">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>39C75AB8-1DB3-9FF8-ABF2-2421C422D806</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F92579E8-E5D0-2CBA-4451-7B8E28F70BA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615BE597-76BA-98D4-3ED5-EC1B866AFE10" name="T_LOCALIZACAO_T_MODO_ESTACIONAMENTO_FK">
+<createdBy>Guilherme</createdBy>
+<createdTime>2022-10-05 16:21:39 UTC</createdTime>
+<generatorID>39C75AB8-1DB3-9FF8-ABF2-2421C422D806</generatorID>
+<ownerDesignName>challenge_bd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92579E8-E5D0-2CBA-4451-7B8E28F70BA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
